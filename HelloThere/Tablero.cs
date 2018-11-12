@@ -15,7 +15,7 @@ namespace HelloThere
         public Tablero(int row,int column)
         {
             this.row = row;
-            this.column = row;
+            this.column = column;
             this.celdas = new char[this.row, this.column];
 
         }
